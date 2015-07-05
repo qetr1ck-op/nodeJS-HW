@@ -13,24 +13,19 @@ global
 module.parent
 
 ../../node_modules or package.json
-
-update
-npm up
-
-delete
-npm r
-
-publish
-npm pu
 ======
 
 npm i -g node-inspector, nodemon
 
-nodemon filename
+debegger;
+node debug [filename] (repl)
+
+
+nodemon [filename]
 node-inspector
 
-node --debug-brk fileName
-node debug fileName
+node --debug-brk [filename]
+node-debug [filename]
 ======
 
 http.Server > net.Server > events.EventEmitter
